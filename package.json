@@ -1,0 +1,33 @@
+{
+  "name": "fis-parser-typescript",
+  "description": "A parser plugin for fis to compile type script.",
+  "version": "0.0.1",
+  "author": {
+    "name": "Jake AuYeung",
+    "email": "jakeauyeung@gmail.com"
+  },
+  "homepage": "http://0522.org",
+  "keywords": [
+    "fis",
+    "typescript"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jakeauyeung/fis-parser-typescript.git"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "mocha test/ut --recursive"
+  },
+  "dependencies": {
+    "typescript": "0.9.7"
+  },
+  "readme": "# fis-parser-typescript\n\nA parser plugin for fis to compile type script.",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/jakeauyeung/fis-parser-typescript/issues"
+  }
+}
